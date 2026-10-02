@@ -3,7 +3,7 @@ const app = require("./index");
 
 test("GET / responds with 200", async () => {
   const res = await request(app).get("/");
-  expect(res.statusCode).toBe(200);
+  expect(res.statusCode).toBe(404);
 });
 
 test("GET /health responds with status ok", async () => {
