@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-console.log("hello");
 
 app.get("/", (req, res) => {
   res.send("Mission 10 CI/CD App");
